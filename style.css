@@ -1,0 +1,80 @@
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.8em;
+}
+
+h1
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h2
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h3
+{
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+em
+{
+	font-weight: bold;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+.filtres
+{
+	display: flex;
+}
+
+.rechbuttn
+{
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	font: bold 15px sans-serif;
+	text-shadow: none;
+}
+
+.hebergmts
+{
+	width: 75%;
+	height: 20em;
+}
+
+.vignettes1
+{
+	display: flex;
+
+}
+
+.vign1
+{
+
+}
+
+.imgv1
+{
+	width: 10em;
+	height: 5em;
+}
