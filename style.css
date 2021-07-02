@@ -7,6 +7,8 @@ header
 
 body
 {
+	display: flexbox;
+	align-items: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.8em;
 }
@@ -39,21 +41,38 @@ nav ul
 	display: flex;
 }
 
-.filtres
+.filters
 {
 	display: flex;
 }
 
-.rechbuttn
+.filt
 {
-	background: #0066A2;
+	display: flex;
+}
+
+.srch
+{
+	display: flex;
+}
+
+#srchinput
+{
+	font: "raleway" bold 13px sans-serif;
+	border: none;
+}
+
+.rchbttn
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background: #0065fc;
 	color: white;
-	border-style: outset;
-	border-color: #0066A2;
-	height: 50px;
-	width: 100px;
-	font: bold 15px sans-serif;
-	text-shadow: none;
+	border-radius: 0em 0.85em 0.85em 0em;
+	height: 2.5em;
+	width: 8em;
+	font: "raleway" bold 13px sans-serif;
 }
 
 .hebergmts
@@ -62,19 +81,51 @@ nav ul
 	height: 20em;
 }
 
-.vignettes1
+.hebergmts
 {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #f2f2f2;
+	width: 50em;
+	height: 25em;
+	border-radius: 1.2em;
+}
 
+.vignettes1
+{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 45em;
+	height: 25em;
 }
 
 .vign1
 {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 14.5em;
+	height: 12em;
+	border-radius: 1.2em;
+	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
+}
 
+.vign1:hover
+{
+		transform: translate(0em, -0.38em);
+}
+.vign1
+{
+	transition: transform 250ms ease-in-out;
 }
 
 .imgv1
 {
-	width: 10em;
-	height: 5em;
+	margin: auto;
+	border-radius: 1em 1em 0em 0em;
+	width: 13.7em;
 }

@@ -29,23 +29,23 @@
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre-ville ou en pleine nature</p>
 			<form method="post" action="#">
-				<div id="srch">
+				<div class="srch">
 					<!-- label ? font awesome location ?? -->
 					<!-- Est-ce-que j'en fait un tableau ou pas ? -->
-					<input type="search" placeholder="Marseille, France" name="local" />
-					<input type="submit" value="Rechercher" class="rechbuttn">
+					<input id="srchinput" type="search" placeholder="Marseille, France" name="local" />
+					<div class="rchbttn">
+						<p>Rechercher</p>
+					</div>
 				</div>
 			</form>
-			<form>
-				<p class="filtres">
-					<em>Filtres</em> <br />
-					<!-- transformer checkboxes en bouton avec icône -->
-					<input type="checkbox" name="eco" id="eco" /> <label for="eco">Économique</label><br />
-					<input type="checkbox" name="familial" id="familial" /> <label for="familial">Familial</label><br />
-					<input type="checkbox" name="romantique" id="romantique" /> <label for="romantique">Romantique</label><br />
-					<input type="checkbox" name="animal" id="animal" /> <label for="animal">Animaux autorisés</label><br />
-				</p>
-			</form>
+
+			<div class="filters">
+				<h2>Filtres</h2>
+				<div class="filt">Économique</div>
+				<div class="filt">Familial</div>
+				<div class="filt">Romantique</div>
+				<div class="filt">Animaux autorisés</div>
+			</div>
 		</div>
 
 		<section>
@@ -53,47 +53,47 @@
 				<!-- icône information -->
 				<p>Plus de 500 logements sont disponibles dans cette ville</p>
 				<div class="hebergmts">
-					<p>Hébergements à Marseille</p>
+					<h2>Hébergements à Marseille</h2>
 
 						<div class="vignettes1">
 
 							<div class="vign1">
-								<img src="files/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge_cannebière" title="Auberge La Cannebière" class="imgv1">
+								<img class="imgv1" src="files/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge_cannebière" title="Auberge La Cannebière" class="imgv1">
 								<h3>Auberge la Cannebière</h3>
 								<p>Nuit à partir de <em>25€</em></p>
 								<!-- 4 étoiles sur 5 -->
 							</div>
 
 							<div class="vign1">
-								<img src="files/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel_port" title="Hôtel du port" class="imgv1">
+								<img class="imgv1" src="files/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel_port" title="Hôtel du port" class="imgv1">
 								<h3>Hôtel du port</h3>
 								<p>Nuit à partir de <em>52€</em></p>
 								<!-- 5 étoiles sur 5 -->
 							</div>
 
 							<div class="vign1">
-								<img src="files/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel_mouettes" title="Hôtel Les mouettes" class="imgv1">
+								<img class="imgv1" src="files/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel_mouettes" title="Hôtel Les mouettes" class="imgv1">
 								<h3>Hôtel Les mouettes</h3>
 								<p>Nuit à partir de <em>76€</em></p>
 								<!-- 4 étoiles sur 5 -->
 							</div>
 
 							<div class="vign1">
-								<img src="files/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel_mer" title="Hôtel de la mer" class="imgv1">
+								<img class="imgv1" src="files/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel_mer" title="Hôtel de la mer" class="imgv1">
 								<h3>Hôtel de la mer</h3>
 								<p>Nuit à partir de <em>46€</em></p>
 								<!-- 3 étoiles sur 5 -->
 							</div>
 
 							<div class="vign1">
-								<img src="files/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge_panier" title="Auberge le Panier" class="imgv1">
+								<img class="imgv1" src="files/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge_panier" title="Auberge le Panier" class="imgv1">
 								<h3>Auberge le Panier</h3>
 								<p>Nuit à partir de <em>23€</em></p>
 								<!-- 4 étoiles sur 5 -->
 							</div>
 
 							<div class="vign1">
-								<img src="files/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel_amina" title="Hôtel Chez Amina" class="imgv1">
+								<img class="imgv1" src="files/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel_amina" title="Hôtel Chez Amina" class="imgv1">
 								<h3>Hôtel Chez Amina</h3>
 								<p>Nuit à partir de <em>96€</em></p>
 								<!-- 5 étoiles sur 5 -->
