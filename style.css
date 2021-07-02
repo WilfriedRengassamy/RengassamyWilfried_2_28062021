@@ -75,10 +75,11 @@ nav ul
 	font: "raleway" bold 13px sans-serif;
 }
 
-.hebergmts
+section
 {
-	width: 75%;
-	height: 20em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .hebergmts
@@ -116,7 +117,7 @@ nav ul
 
 .vign1:hover
 {
-		transform: translate(0em, -0.38em);
+	transform: translate(0em, -0.38em);
 }
 .vign1
 {
@@ -127,5 +128,54 @@ nav ul
 {
 	margin: auto;
 	border-radius: 1em 1em 0em 0em;
+	width: 13.7em;
+}
+
+.popular
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #f2f2f2;
+	width: 25em;
+	height: 25em;
+	border-radius: 1.2em;
+}
+
+.vignettes2
+{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 45em;
+	height: 25em;
+}
+
+.vign2
+{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	width: 16em;
+	height: 8em;
+	border-radius: 1.2em;
+	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
+}
+
+.vign2:hover
+{
+	transform: translate(0em, -0.38em);
+}
+.vign2
+{
+	transition: transform 250ms ease-in-out;
+}
+
+.imgv2
+{
+	margin: auto;
+	border-radius: 1em 0em 0em 1em;
 	width: 13.7em;
 }
