@@ -110,7 +110,7 @@ section
 	flex-wrap: wrap;
 	background-color: white;
 	width: 14.5em;
-	height: 12em;
+	height: 13.1em;
 	border-radius: 1.2em;
 	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
 }
@@ -126,9 +126,16 @@ section
 
 .imgv1
 {
+	background-size: cover;
 	margin: auto;
 	border-radius: 1em 1em 0em 0em;
 	width: 13.7em;
+	height: 7.8em;
+}
+
+.imgv1 img
+{
+	display: none;
 }
 
 .popular
@@ -178,4 +185,9 @@ section
 	margin: auto;
 	border-radius: 1em 0em 0em 1em;
 	width: 13.7em;
+}
+
+.imgv2 img
+{
+	display: none;
 }
