@@ -7,17 +7,11 @@ header
 
 body
 {
-	display: flexbox;
-	align-items: center;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.8em;
-}
-
-.bloc_page
-{
-	padding: 30px;
-	display: flex;
-	flex-direction: column;
 }
 
 h1
@@ -151,6 +145,8 @@ section
 {
 	display: flex;
 	flex-direction: column;
+	padding-left: 0.5em;
+	margin-top: -0.6em;
 }
 
 .popular
@@ -160,8 +156,13 @@ section
 	align-items: center;
 	background-color: #f2f2f2;
 	width: 25em;
-	height: 25em;
+	height: 40em;
 	border-radius: 1.2em;
+}
+
+.popular h2
+{
+	margin-left: 2em;
 }
 
 .vignettes2
@@ -171,14 +172,13 @@ section
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 45em;
-	height: 25em;
+	height: 31.5em;
 }
 
 .vign2
 {
 	margin: auto;
 	display: flex;
-	flex-direction: row;
 	background-color: white;
 	width: 20em;
 	height: 8em;
@@ -197,9 +197,11 @@ section
 
 .imgv2
 {
+	background-size: cover;
 	margin: auto;
 	border-radius: 1em 0em 0em 1em;
-	width: 13.7em;
+	height: 7.3em;
+	width: 7.3em;
 }
 
 .vign2p
