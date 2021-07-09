@@ -93,16 +93,79 @@ header nav :nth-child(3)
 .filters
 {
 	display: flex;
+	justify-content: flex-start;
+	align-content: space-between;
+}
+
+.filters h2
+{
+	margin-right: 20px;
 }
 
 .filt
 {
+	margin: 20px 20px 0px 0px;
 	display: flex;
+	border: 2px solid #d9d9d9;
+	border-radius: 3em;
+	height: 45px;
+	font-weight: bold;
+	color: black;
+	transition: 0.4s;
+}
+
+.filt:hover
+{
+	border:3px solid #0065fc;
+	color: #0065fc;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.filt p
+{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.filtico
+{
+	background-color: #deebff;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 3em;
+	transition: 0.4s;
+}
+
+.filtico:hover
+{
+	background-color: #0065fc;
 }
 
 .srch
 {
 	display: flex;
+	justify-content: flex-start;
+}
+
+.srchico
+{
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 1em 0em 0em 1em;
+	transition: 0.4s;
+}
+
+.srchico:hover
+{
+	background-color: #d9d9d9;
 }
 
 #srchinput
@@ -315,7 +378,7 @@ section
 
 .vignettes3
 {
-	margin-top: -5em;
+	margin-top: -3.5em;
 	padding-left: -1em;
 	display: flex;
 	flex-wrap: wrap;
