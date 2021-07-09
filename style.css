@@ -50,50 +50,42 @@ nav ul
 	display: flex;
 }
 
-nav li
+.pgs
 {
 	background-color: white;
 	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 	width: 120px;
 	height: 56px;
 	border-radius: 0px 0px 8px 8px;
-	transition: 0.4s;
-}
-
-nav li:nth-child(1)
-{
-	border-top: 2px solid #0065fc;
-}
-
-nav li:hover
-{
-	background-color: #0065fc;
-}
-
-nav li a
-{	
-	text-decoration: none;
-	margin: auto;
-	align-self: flex-end;
 	color: #0065fc;
+	text-decoration: none;
 	font-size: 13px;
 	font-weight: 300;
 	transition: 0.4s;
 }
 
-nav li a:nth-child(2)
+nav :nth-child(1)
 {
-	color: #black;
+	border-top: 1px solid #0065fc;
 }
 
-nav li a:nth-child(3)
+.pgs:hover
 {
-	font-weight: bold;
-}
-
-nav li a:hover
-{
+	background-color: #0065fc;
 	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav :nth-child(2)
+{
+	color: black;
+}
+
+nav :nth-child(3)
+{
 	font-weight: bold;
 }
 
@@ -125,17 +117,26 @@ nav li a:hover
 
 .rchbttn
 {
+	text-decoration: none;
 	display: flex;
 	flex-wrap: wrap;
-	background: #0065fc;
+	background: #f2f2f2;
 	justify-content: space-around;
-	color: white;
+	color: black;
 	border-radius: 0em 0.85em 0.85em 0em;
 	width: 100px;
 	height: 40px;
 	font-family: "raleway";
 	font-size: 14px;
 	font-weight: 500;
+	transition: 0.4s;
+}
+
+.rchbttn:hover
+{
+	background-color: #0065fc;
+	color: white;
+	font-weight: bold;
 }
 
 .rchbttn p
