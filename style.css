@@ -44,7 +44,7 @@ em
 	font-weight: bold;
 }
 
-nav ul
+header nav ul
 {
 	list-style-type: none;
 	display: flex;
@@ -66,7 +66,7 @@ nav ul
 	transition: 0.4s;
 }
 
-nav :nth-child(1)
+header nav :nth-child(1)
 {
 	border-top: 1px solid #0065fc;
 }
@@ -79,12 +79,12 @@ nav :nth-child(1)
 	text-transform: uppercase;
 }
 
-nav :nth-child(2)
+header nav :nth-child(2)
 {
 	color: black;
 }
 
-nav :nth-child(3)
+header nav :nth-child(3)
 {
 	font-weight: bold;
 }
@@ -426,4 +426,12 @@ section
 	margin: auto;
 	border-radius: 1.2em 1.2em 0em 0em;
 	width: 18.3em;
+}
+
+footer
+{
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	color: black;
 }
