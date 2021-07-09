@@ -50,6 +50,53 @@ nav ul
 	display: flex;
 }
 
+nav li
+{
+	background-color: white;
+	display: flex;
+	width: 120px;
+	height: 56px;
+	border-radius: 0px 0px 8px 8px;
+	transition: 0.4s;
+}
+
+nav li:nth-child(1)
+{
+	border-top: 2px solid #0065fc;
+}
+
+nav li:hover
+{
+	background-color: #0065fc;
+}
+
+nav li a
+{	
+	text-decoration: none;
+	margin: auto;
+	align-self: flex-end;
+	color: #0065fc;
+	font-size: 13px;
+	font-weight: 300;
+	transition: 0.4s;
+}
+
+nav li a:nth-child(2)
+{
+	color: #black;
+}
+
+nav li a:nth-child(3)
+{
+	font-weight: bold;
+}
+
+nav li a:hover
+{
+	color: white;
+	font-weight: bold;
+}
+
 .filters
 {
 	display: flex;
@@ -67,8 +114,13 @@ nav ul
 
 #srchinput
 {
-	font: "raleway" bold 13px sans-serif;
-	border: none;
+	padding-left: 10px;
+	font-family: "raleway";
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #f2f2f2;
+	width: 170px;
+	height: 40px;
 }
 
 .rchbttn
@@ -79,15 +131,16 @@ nav ul
 	justify-content: space-around;
 	color: white;
 	border-radius: 0em 0.85em 0.85em 0em;
-	height: 2.5em;
-	width: 8em;
-	font: "raleway" 13px sans-serif;
-	font-weight: bold;
+	width: 100px;
+	height: 40px;
+	font-family: "raleway";
+	font-size: 14px;
+	font-weight: 500;
 }
 
 .rchbttn p
 {
-	margin-top: 0.65em;
+	margin: auto;
 }
 
 section
@@ -104,8 +157,8 @@ section
 	flex-wrap: wrap;
 	justify-content: start;
 	background-color: #f2f2f2;
-	width: 57em;
-	height: 40em;
+	width: 730px;
+	height: 520px;
 	border-radius: 1.2em;
 }
 
@@ -130,7 +183,7 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
-	width: 14.7em;
+	width: 185px;
 	height: 12em;
 	border: 4px solid white;
 	border-radius: 1.2em;
@@ -149,10 +202,9 @@ section
 .imgv1
 {
 	background-size: cover;
-	margin: auto;
 	border-radius: 1em 1em 0em 0em;
-	width: 14.7em;
-	height: 7.8em;
+	width: 185px;
+	height: 87px;
 }
 
 .vign1p
@@ -175,8 +227,8 @@ section
 	flex-wrap: wrap;
 	align-items: center;
 	background-color: #f2f2f2;
-	width: 25em;
-	height: 40em;
+	width: 320px;
+	height: 520px;
 	border-radius: 1.2em;
 }
 
@@ -187,7 +239,6 @@ section
 
 .vignettes2
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -200,8 +251,8 @@ section
 	margin: auto;
 	display: flex;
 	background-color: white;
-	width: 20em;
-	height: 8em;
+	width: 245px;
+	height: 100px;
 	border: 4px solid white;
 	border-radius: 1.2em;
 	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
@@ -221,16 +272,22 @@ section
 	background-size: cover;
 	margin: auto;
 	border-radius: 1em 0em 0em 1em;
-	height: 8em;
-	width: 8em;
+	height: 100px;
+	width: 170px;
 }
 
 .vign2p
 {
-	margin-left: 1em;
-	margin-right: 2em;
+	margin-left: 10px;
+	width: 200px;
 	display: flex;
 	flex-direction: column;
+}
+
+.vign2p p
+{
+	margin-top: -10px;
+	font-size: 0.8em;
 }
 
 .activites
@@ -288,7 +345,6 @@ section
 
 .vign3_2
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
@@ -317,7 +373,6 @@ section
 
 .vign3_3
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
@@ -346,7 +401,6 @@ section
 
 .vign3_4
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
