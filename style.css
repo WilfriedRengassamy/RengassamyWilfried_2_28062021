@@ -56,8 +56,9 @@ header nav ul
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	padding-bottom: 5%;
 	width: 120px;
-	height: 56px;
+	height: 48px;
 	border-radius: 0px 0px 8px 8px;
 	color: #0065fc;
 	text-decoration: none;
@@ -166,6 +167,12 @@ section
 .hebergmts h2
 {
 	margin-left: 2em;
+}
+
+.hebergmts a
+{
+	text-decoration: none;
+	color: black;
 }
 
 .vignettes1
@@ -313,7 +320,18 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	height: 25.3em;
+	width: 1440px;
+	height: 345px;
+}
+
+.v3colmn
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 245px;
+	height: 345px;
 }
 
 .vign3_1
@@ -321,8 +339,8 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
-	width: 18.3em;
-	height: 25.3em;
+	width: 245px;
+	height: 345px;
 	border-radius: 1.2em;
 	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
 }
@@ -340,8 +358,8 @@ section
 {
 	background-size: cover;
 	border-radius: 1.2em 1.2em 0em 0em;
-	width: 18.3em;
-	height: 22em;
+	width: 245px;
+	height: 280px;
 }
 
 .vign3_2
@@ -349,8 +367,8 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
-	width: 18.3em;
-	height: 13em;
+	width: 245px;
+	height: 169px;
 	border-radius: 1.2em;
 	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
 }
@@ -367,9 +385,9 @@ section
 .imgv3_2
 {
 	background-size: cover;
-	margin: auto;
 	border-radius: 1.2em 1.2em 0em 0em;
-	width: 18.3em;
+	width: 245px;
+	height:126px;
 }
 
 .vign3_3
@@ -377,8 +395,8 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
-	width: 18.3em;
-	height: 9em;
+	width: 245px;
+	height: 141px;
 	border-radius: 1.2em;
 	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
 }
@@ -395,9 +413,9 @@ section
 .imgv3_3
 {
 	background-size: cover;
-	margin: auto;
 	border-radius: 1.2em 1.2em 0em 0em;
-	width: 18.3em;
+	width: 245px;
+	height: 98px;
 }
 
 .vign3_4
@@ -405,8 +423,8 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
-	width: 18.3em;
-	height: 8em;
+	width: 245px;
+	height: 153px;
 	border-radius: 1.2em;
 	box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
 }
@@ -423,15 +441,42 @@ section
 .imgv3_4
 {
 	background-size: cover;
-	margin: auto;
 	border-radius: 1.2em 1.2em 0em 0em;
-	width: 18.3em;
+	width: 245px;
+	height: 110px;
 }
 
 footer
 {
 	background-color: #f2f2f2;
 	display: flex;
+	justify-content: flex-start;
+	padding: 0.7em;
+	color: black;
+	font-size: 1em;
+}
+
+.footnav
+{
+	min-width: 360px;
+}
+
+footer nav ul
+{
+	list-style-type: none;
+	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+footer nav li
+{
+	padding-bottom: 9px;
+}
+
+footer nav a
+{
+	text-decoration: none;
 	color: black;
 }
