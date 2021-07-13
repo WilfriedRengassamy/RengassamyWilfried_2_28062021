@@ -6,21 +6,22 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/8f1faae413.js" crossorigin="anonymous"></script>
 	<title>Reservia, des vacances de rêve</title>
 </head>
 
 <body>
+
+<div class="content">
 	<header>
 		<div id="logo">
-			<img src="files/images/logo/reservia.svg" alt="logo_Reservia">
+			<img src="files/images/logo/reservia.svg" alt="logo_Reservia" />
 		</div>
 
 		<nav>
 			<ul>
-				<li><a href="#"><div class="pgs"><p>Hébergements</p></div></a></li>
-				<li><a href="#"><div class="pgs"><p>Activités</p></div></a></li>
-				<li><a href="#"><div class="pgs"><P>S'inscrire</p></div></a></li>
+				<li><a href="#" class="pgshbg">Hébergements</a></li>
+				<li><a href="#" class="pgsact">Activités</a></li>
+				<li><a href="#" class="pgsign">S'inscrire</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -35,7 +36,7 @@
 				<div class="srch">
 					<!-- label ? font awesome location ?? -->
 					<!-- Est-ce-que j'en fait un tableau ou pas ? -->
-					<div class="srchico"><i class="fas fa-map-marker-alt"></i></div>
+					<div class="srchico"><img src="files/icons/marker.svg" alt="ico_marker" class="marker" /></div>
 					<input id="srchinput" type="search" placeholder="Marseille, France" name="local" />
 					<a href="#"><div class="rchbttn">
 						<p>Rechercher</p>
@@ -46,26 +47,26 @@
 			<div class="filters">
 				<h2>Filtres</h2>
 				<div class="filt">
-					<a href="#"><div class="filtico"><i class="fas fa-money-bill-wave"></i></div></a>
+					<a href="#"><div class="filtico"><img src="files/icons/bill-b.svg" alt="ico_bill" class="bill" /></div></a>
 					<p>Économique</p>
 				</div>
 				<div class="filt">
-					<a href="#"><div class="filtico"><i class="fas fa-child"></i></div></a>
+					<a href="#"><div class="filtico"><img src="files/icons/child-b.svg" alt="ico_child" class="child" /></div></a>
 					<p>Familial</p>
 				</div>
 				<div class="filt">
-					<a href="#"><div class="filtico"><i class="fas fa-heart"></i></div></a>
+					<a href="#"><div class="filtico"><img src="files/icons/heart-b.svg" alt="ico_heart" class="heart" /></div></a>
 					<p>Romantique</p>
 					</div>
 				<div class="filt">
-					<a href="#"><div class="filtico"><i class="fas fa-dog"></i></div></a>
+					<a href="#"><div class="filtico"><img src="files/icons/dog-b.svg" alt="ico_dog" class="dog" /></div></a>
 					<p>Animaux autorisés</p>
 				</div>
 			</div>
 		</div>
 
 		<!-- icône information -->
-		<p><div id="info"><i class="fas fa-info"></i></div>Plus de 500 logements sont disponibles dans cette ville</p>
+		<div id="infolin"><div id="info"><img src="files/icons/info-b.svg" alt="ico_info" class="info" /></div><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
 
 		<section>
 			<div id="principal">
@@ -81,12 +82,12 @@
 								<div class="vign1p">
 									<h3>Auberge la Cannebière</h3>
 									<p>Nuit à partir de <em>25€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsh">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
 									</div>
 									<!-- 4 étoiles sur 5 -->
 								</div>
@@ -98,12 +99,12 @@
 									<div class="vign1p">
 									<h3>Hôtel du port</h3>
 									<p>Nuit à partir de <em>52€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsh">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
 									</div>
 									<!-- 5 étoiles sur 5 -->
 								</div>
@@ -115,12 +116,12 @@
 								<div class="vign1p">
 									<h3>Hôtel Les mouettes</h3>
 									<p>Nuit à partir de <em>76€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsh">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
 									</div>
 									<!-- 4 étoiles sur 5 -->
 								</div>
@@ -132,12 +133,12 @@
 								<div class="vign1p">
 									<h3>Hôtel de la mer</h3>
 									<p>Nuit à partir de <em>46€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsh">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
 									</div>
 									<!-- 3 étoiles sur 5 -->
 								</div>
@@ -149,12 +150,12 @@
 								<div class="vign1p">
 									<h3>Auberge le Panier</h3>
 									<p>Nuit à partir de <em>23€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsh">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
 									</div>
 									<!-- 4 étoiles sur 5 -->
 								</div>
@@ -166,12 +167,12 @@
 								<div class="vign1p">
 									<h3>Hôtel Chez Amina</h3>
 									<p>Nuit à partir de <em>96€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsh">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
 									</div>
 									<!-- 5 étoiles sur 5 -->
 								</div>
@@ -183,7 +184,7 @@
 
 			<aside>
 				<div class="popular">
-					<i class="fas fa-chart-line"></i><h2>Les plus populaires</h2>
+					<div class="poptitle"><h2>Les plus populaires</h2><div id="popico"><img src="files/icons/chart.svg" alt="ico_chart" class="chart" /></div></div>
 					<div class="vignettes2">
 						<a href="#"><div class="vign2">
 							<div class="imgv2" style="background-image:url(files/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)">
@@ -191,12 +192,12 @@
 							<div class="vign2p">
 								<h3>Hôtel Le Soleil du matin</h3>
 								<p>Nuit à partir de <em>128€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsv">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
 									</div>
 							<!-- 5 étoiles sur 5 -->
 							</div>
@@ -208,12 +209,12 @@
 							<div class="vign2p">
 								<h3>Au coeur de l'eau Chambres d'hôtes</h3>
 								<p>Nuit à partir de <em>71€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsv">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
 									</div>
 								<!-- 4 étoiles sur 5 -->
 							</div>
@@ -225,12 +226,12 @@
 							<div class="vign2p">
 								<h3>Hôtel Tout Bleu et Blanc</h3>
 								<p>Nuit à partir de <em>68€</em></p>
-									<div class="stars">
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
-										<i class="fas fa-star"></i>
+									<div class="starsv">
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sb"><img src="files/icons/star-b.svg" alt="ico_star-b" class="star-b" /></div>
+										<div class="sg"><img src="files/icons/star-g.svg" alt="ico_star-g" class="star-g" /></div>
 									</div>
 								<!-- 4 étoiles sur 5 -->
 							</div>
@@ -287,7 +288,7 @@
 		</div>
 
 	</div>
-
+</div>
 	<footer>
 		<div class="footnav">
 				<nav>
