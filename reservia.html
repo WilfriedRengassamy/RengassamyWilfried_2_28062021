@@ -11,21 +11,22 @@
 
 <body>
 
+<header>
+	<div id="logo">
+		<img src="files/images/logo/reservia.svg" alt="logo_Reservia" class="reservia" />
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="#" class="pgshbg">Hébergements</a></li>
+			<li><a href="#" class="pgsact">Activités</a></li>
+			<li><a href="#" class="pgsign">S'inscrire</a></li>
+		</ul>
+	</nav>
+</header>
+
+
 <div class="content">
-	<header>
-		<div id="logo">
-			<img src="files/images/logo/reservia.svg" alt="logo_Reservia" />
-		</div>
-
-		<nav>
-			<ul>
-				<li><a href="#" class="pgshbg">Hébergements</a></li>
-				<li><a href="#" class="pgsact">Activités</a></li>
-				<li><a href="#" class="pgsign">S'inscrire</a></li>
-			</ul>
-		</nav>
-	</header>
-
 
 	<div id="bloc_page">
 
@@ -36,16 +37,23 @@
 				<div class="srch">
 					<!-- label ? font awesome location ?? -->
 					<!-- Est-ce-que j'en fait un tableau ou pas ? -->
-					<div class="srchico"><img src="files/icons/marker.svg" alt="ico_marker" class="marker" /></div>
-					<input id="srchinput" type="search" placeholder="Marseille, France" name="local" />
-					<a href="#"><div class="rchbttn">
-						<p>Rechercher</p>
-					</div></a>
+					<div class="srchico">
+						<img src="files/icons/marker.svg" alt="ico_marker" class="marker" />
+					</div>
+					<div class="srcfrm">
+						<input id="srchinput" type="search" placeholder="Marseille, France" name="local" />
+						<a href="#">
+							<div class="rchbttn">
+								<p>Rechercher</p>
+							</div>
+						</a>
+					</div>
 				</div>
 			</form>
 
 			<div class="filters">
 				<h2>Filtres</h2>
+				<div class="filtr">
 				<div class="filt">
 					<a href="#"><div class="filtico"><img src="files/icons/bill-b.svg" alt="ico_bill" class="bill" /></div></a>
 					<p>Économique</p>
@@ -61,6 +69,7 @@
 				<div class="filt">
 					<a href="#"><div class="filtico"><img src="files/icons/dog-b.svg" alt="ico_dog" class="dog" /></div></a>
 					<p>Animaux autorisés</p>
+				</div>
 				</div>
 			</div>
 		</div>
