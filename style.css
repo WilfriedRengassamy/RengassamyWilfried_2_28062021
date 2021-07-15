@@ -4,17 +4,16 @@ body
 	flex-wrap: wrap;
 	flex-direction: column;
 	min-width: 480px;
-	max-width: 1440px;
 }
 
 header
 {
+	display: flex;
+	flex-wrap: wrap;
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-top: -22px;
 	margin-bottom: 16px;
-	display: flex;
-	flex-wrap: wrap;
 	justify-content: flex-end;
 	font-family: "raleway";
 }
@@ -27,26 +26,26 @@ header
 
 header nav ul
 {
-	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
+	list-style-type: none;
 }
 
 .pgslog
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
-	flex-wrap: wrap;
 }
 
 .pgshbg, .pgsact, .pgsign
 {
-	background-color: white;
 	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
 	justify-content: center;
 	align-content: flex-end;
-	flex-wrap: wrap;
 	width: 130px;
 	height: 30px;
 	margin-top: -3px;
@@ -99,13 +98,13 @@ header nav li
 	font-weight: bold;
 }
 
-
 .content
 {
-	padding-left: 10%;
-	padding-right: 10%;
-	margin-bottom: 2%;
 	display: flex;
+	flex-wrap: wrap;
+	padding-left: 13%;
+	padding-right: 13%;
+	margin-bottom: 2%;
 	flex-direction: column;
 	justify-content: space-between;
 	font-family: 'Raleway', sans-serif;
@@ -115,6 +114,7 @@ header nav li
 .bloc_page
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -157,17 +157,17 @@ em
 
 .starsh
 {
-	margin-top: -0.2em;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: -0.2em;
 	height: 2em;
 }
 
 .starsv
 {
-	margin-top: 1.2em;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 1.2em;
 	height: 1em;
 }
 
@@ -181,8 +181,9 @@ em
 
 .filters
 {
-	margin-top: 1em;
 	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
 	justify-content: flex-start;
 	align-content: space-between;
 }
@@ -201,8 +202,9 @@ em
 
 .filt
 {
-	margin: 1.5em 2em 0em 0em;
 	display: flex;
+	flex-wrap: wrap;
+	margin: 1.5em 2em 0em 0em;
 	border: 2px solid #d9d9d9;
 	border-radius: 3em;
 	height: 3.5em;
@@ -226,8 +228,9 @@ em
 
 .filtico
 {
-	background-color: #deebff;
 	display: flex;
+	flex-wrap: wrap;
+	background-color: #deebff;
 	justify-content: center;
 	align-content: center;
 	width: 3.5em;
@@ -246,14 +249,16 @@ em
 .srch
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
 }
 
 .srchico
 {
-	background-color: #f2f2f2;
 	display: flex;
+	flex-wrap: wrap;
+	background-color: #f2f2f2;
 	justify-content: space-around;
 	font-size: 18px;
 	color: black;
@@ -306,6 +311,8 @@ em
 
 #srchinput
 {
+	display: flex;
+	flex-wrap: wrap;
 	padding-left: 10px;
 	font-family: "raleway";
 	font-size: 13px;
@@ -352,10 +359,10 @@ em
 
 #infolin
 {
-	margin-top: 25px;
-	margin-bottom: 25px;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	justify-content: flex-start;
 }
 
@@ -366,9 +373,9 @@ em
 
 #info
 {
-	margin-right: 13px;
 	display: flex;
 	flex-wrap: wrap;
+	margin-right: 13px;
 	justify-content: space-around;
 	width: 20px;
 	height: 20px;
@@ -379,8 +386,8 @@ em
 .hebergmts
 {
 	display: flex;
-	padding-top: 2em;
 	flex-wrap: wrap;
+	padding-top: 2em;
 	justify-content: start;
 	background-color: #f2f2f2;
 	width: 730px;
@@ -400,9 +407,9 @@ em
 
 .vignettes1
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	margin: auto;
 	justify-content: space-between;
 	width: 52.5em;
 	height: 31.5em;
@@ -410,9 +417,9 @@ em
 
 .vign1
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	margin: auto;
 	background-color: white;
 	width: 185px;
 	height: 12em;
@@ -442,6 +449,7 @@ em
 .vign1p
 {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	padding-left: 0.5em;
 }
@@ -454,10 +462,10 @@ em
 
 .popular
 {
-	background-color: greenyellow;
 	display: flex;
-	padding-top: 2em;
 	flex-wrap: wrap;
+	background-color: greenyellow;
+	padding-top: 2em;
 	align-items: center;
 	background-color: #f2f2f2;
 	width: 320px;
@@ -493,9 +501,9 @@ em
 
 .vignettes2
 {
-	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
+	margin: auto;
 	justify-content: space-between;
 	width: 253px;
 	height: 460px;
@@ -504,6 +512,7 @@ em
 .vign2
 {
 	display: flex;
+	flex-wrap: wrap;
 	background-color: white;
 	width: 245px;
 	height: 100px;
@@ -533,9 +542,10 @@ em
 
 .vign2p
 {
+	display: flex;
+	flex-wrap: wrap;
 	margin-left: 10px;
 	width: 200px;
-	display: flex;
 	flex-direction: column;
 }
 
@@ -547,10 +557,10 @@ em
 
 .activites
 {
-	margin-top: 1em;
-	padding-top: 1em;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 1em;
+	padding-top: 1em;
 	justify-content: space-between;
 	height: 35em;
 }
@@ -567,10 +577,10 @@ em
 
 .vignettes3
 {
-	margin-top: -3.5em;
-	padding-left: -1em;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: -3.5em;
+	padding-left: -1em;
 	justify-content: space-between;
 	width: 100%;
 }
@@ -703,9 +713,9 @@ em
 
 footer
 {
-	background-color: #f2f2f2;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: #f2f2f2;
 	justify-content: flex-start;
 	min-width: 480px;
 	padding: 0.7em 0.7em 0.7em 9.5em;
@@ -721,11 +731,12 @@ footer
 
 footer nav ul
 {
-	list-style-type: none;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	flex-direction: column;
 	align-content: flex-start;
+	flex-direction: column;
+	list-style-type: none;
 }
 
 footer nav li
@@ -749,25 +760,48 @@ footer nav a:hover
 @media all and (max-device-width: 480px)
 {
 
-	#reservia
+	.body
 	{
-		height: 100px;
-		padding-top: 75px;
+		justify-content: center;
+		width: 480px;
 	}
 
-	header nav
+	.content
 	{
-		padding-left: 0%;
-		padding-right: 0%;
-		width: 100%;
-		font-size: 2.5em;
+		padding: 0%;
 	}
 
-	header nav ul a
+	h1
 	{
-		width: 50%;
+		font-size: 20px;
+	}
+	h2
+	{
+		font-size: 20px;
+	}
+	h3
+	{
+		font-size: 20px;
 	}
 
+	header
+	{
+		justify-content: space-between;
+		padding: inherit;
+	}
 
+	.hdcont
+	{
+		width: inherit;
+		font-size: 30px;
+	}
 
+	.pgshbg
+	{
+		order: 3;
+	}
+	.pgsact
+	{
+		order: 4;
+	}
 }
