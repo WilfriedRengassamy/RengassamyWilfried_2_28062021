@@ -4,10 +4,6 @@ body
 	flex-wrap: wrap;
 	flex-direction: column;
 	min-width: 480px;
-<<<<<<< HEAD
-	max-width: 1080px;
-=======
->>>>>>> dev
 }
 
 header
