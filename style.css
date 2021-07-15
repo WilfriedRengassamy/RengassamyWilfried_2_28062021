@@ -1,19 +1,110 @@
+body
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	min-width: 480px;
+	max-width: 1440px;
+}
+
 header
 {
-	padding-left: 12.5%;
+	padding-left: 10%;
 	padding-right: 10%;
-	margin-top: -1.5em;
-	margin-bottom: 1.6em;
+	margin-top: -22px;
+	margin-bottom: 16px;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	flex-wrap: wrap;
+	justify-content: flex-end;
 	font-family: "raleway";
 }
 
+.hdcont
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pgslog
+{
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.pgshbg, .pgsact, .pgsign
+{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+	flex-wrap: wrap;
+	width: 130px;
+	height: 30px;
+	margin-top: -3px;
+	padding-top: 1.5em;
+	border-radius: 0em 0em 0.7em 0.7em;
+	color: #0065fc;
+	font-size: 1em;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+header nav li
+{
+	border-top: 2px solid rgba(255, 255, 255, 0);
+}
+
+.pgshbg
+{
+	border-top: 2px solid #0065fc;
+}
+
+.pgshbg:hover
+{
+	background-color: #0065fc;
+	color: white;
+	font-weight: bold;
+}
+
+.pgsact:hover
+{
+	background-color: #0065fc;
+	color: white;
+	font-weight: bold;
+}
+
+.pgsign:hover
+{
+	background-color: #0065fc;
+	color: white;
+	font-weight: bolder;
+}
+
+.pgsact
+{
+	color: black;
+}
+
+.pgsign
+{
+	font-weight: bold;
+}
+
+
 .content
 {
-	padding-left: 13%;
-	padding-right: 13%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 2%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -26,6 +117,16 @@ header
 	display: flex;
 	justify-content: space-between;
 }
+
+section
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
 
 a
 {
@@ -77,81 +178,6 @@ em
 	height: 1em;
 }
 
-header nav ul
-{
-	list-style-type: none;
-	display: flex;
-}
-
-.pgshbg, .pgsact, .pgsign
-{
-	background-color: white;
-	display: flex;
-	justify-content: center;
-	width: 10em;
-	height: 3em;
-	margin-top: -3px;
-	padding-top: 1.5em;
-	border-radius: 0em 0em 0.7em 0.7em;
-	color: #0065fc;
-	font-size: 1em;
-	font-weight: bold;
-	transition: 0.4s;
-}
-
-.pgs p
-{
-	margin-top: 2.2em;
-}
-
-header nav li
-{
-	border-top: 2px solid rgba(255, 255, 255, 0);
-}
-
-header nav li:hover
-{
-	border-top: 2px solid #0065fc;
-}
-
-.pgshbg
-{
-	border-top: 2px solid #0065fc;
-}
-
-.pgshbg:hover
-{
-	background-color: #0065fc;
-	color: white;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.pgsact:hover
-{
-	background-color: #0065fc;
-	color: white;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.pgsign:hover
-{
-	background-color: #0065fc;
-	color: white;
-	font-weight: bolder;
-	text-transform: uppercase;
-}
-
-.pgsact
-{
-	color: black;
-}
-
-.pgsign
-{
-	font-weight: bold;
-}
 
 .filters
 {
@@ -190,7 +216,6 @@ header nav li:hover
 	border:3px solid #0065fc;
 	color: #0065fc;
 	font-weight: bolder;
-	text-transform: uppercase;
 }
 
 .filt p
@@ -349,13 +374,6 @@ header nav li:hover
 	height: 20px;
 	border: 1.3px solid #f2f2f2;
 	border-radius: 20px 20px 20px 20px;
-}
-
-section
-{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .hebergmts
@@ -554,7 +572,7 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 144em;
+	width: 100%;
 }
 
 .v3colmn
@@ -687,7 +705,9 @@ footer
 {
 	background-color: #f2f2f2;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
+	min-width: 480px;
 	padding: 0.7em 0.7em 0.7em 9.5em;
 	font-family: "raleway";
 	color: black;
@@ -718,718 +738,36 @@ footer nav a
 	color: black;
 }
 
+footer nav a:hover
+{
+	color: #0065fc;
+}
+
 
 
 /* Media query pour écran mobile */
 @media all and (max-device-width: 480px)
 {
-	header
+
+	#reservia
+	{
+		height: 100px;
+		padding-top: 75px;
+	}
+
+	header nav
 	{
 		padding-left: 0%;
 		padding-right: 0%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: flex-end;
-		font-family: "raleway";
-	}
-
-	.logo
-	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		height: 3em;
-	}
-	
-	.content
-	{
-		padding-left: 4%;
-		padding-right: 4%;
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		justify-self: center;
-		font-family: 'Raleway', sans-serif;
-		font-size: 3em;
-	}
-	
-	.bloc_page
-	{
-		padding-left: 50px;
-		padding-left: 50px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	
-	a
-	{
-		text-decoration: none;
-	}
-	
-	h1
-	{
-		font-size: 1.1em;
-		font-weight: bold;
-	}
-	h2
-	{
-		font-size: 46px;
-		font-weight: bold;
-	}
-	
-	h3
-	{
-		font-size: 1em;
-		font-weight: bold;
-	}
-	
-	em
-	{
-		font-weight: bold;
-	}
-	
-	.starsh
-	{
-		margin-top: -0.2em;
-		display: flex;
-		flex-wrap: wrap;
-		height: 2em;
-	}
-	
-	.starsv
-	{
-		margin-top: 1.2em;
-		display: flex;
-		flex-wrap: wrap;
-		height: 1em;
-	}
-	
-	.star-b, .star-g
-	{
-		display: flex;
-		flex-wrap: wrap;
-		height: 1em;
-	}
-	
-	header nav ul
-	{
-		list-style-type: none;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	
-	.pgshbg, .pgsact, .pgsign
-	{
-		background-color: white;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		width: 240px;
-		margin-top: -3px;
-		padding-top: 1.5em;
-		border-radius: 0em 0em 0.7em 0.7em;
-		color: #0065fc;
-		font-size: 1em;
-		font-weight: bold;
-		transition: 0.4s;
-	}
-	
-	.pgs p
-	{
-		margin-top: 2.2em;
-	}
-	
-	header nav li
-	{
-		border-top: 2px solid rgba(255, 255, 255, 0);
-	}
-	
-	header nav li:hover
-	{
-		border-top: 2px solid #0065fc;
-	}
-	
-	.pgshbg
-	{
-		border-top: 2px solid #0065fc;
-	}
-	
-	.pgshbg:hover
-	{
-		background-color: #0065fc;
-		color: white;
-		font-weight: bold;
-		text-transform: uppercase;
-	}
-	
-	.pgsact:hover
-	{
-		background-color: #0065fc;
-		color: white;
-		font-weight: bold;
-		text-transform: uppercase;
-	}
-	
-	.pgsign:hover
-	{
-		background-color: #0065fc;
-		color: white;
-		font-weight: bolder;
-		text-transform: uppercase;
-	}
-	
-	.pgsact
-	{
-		color: black;
-	}
-	
-	.pgsign
-	{
-		font-weight: bold;
-	}
-	
-	.filters
-	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		align-content: space-between;
-		height: 20em;
-	}
-	
-	.filtr
-	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	
-	.filt
-	{
-		display: flex;
-		flex-wrap: wrap;
-		border: 6px solid #d9d9d9;
-		border-radius: 100px;
-		font-size: 0.9em;
-		font-weight: bold;
-		color: black;
-		transition: 0.4s;
-		height: 100px;
-	}
-	
-	.filt:hover
-	{
-		border:3px solid #0065fc;
-		color: #0065fc;
-		font-weight: bolder;
-		text-transform: uppercase;
-	}
-	
-	.filt p
-	{
-		margin: 0.5em 0.7em 0em 0.3em;
-	}
-	
-	.filtico
-	{
-		background-color: #deebff;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-content: center;
-		width: 100px;
-		height: 100px;
-		border-radius: 3em;
-		transition: 0.4s;
-		color: black;
-	}
-	
-	.filtico:hover
-	{
-		background-color: #0065fc;
-		color: white;
-	}
-	
-	.srch
-	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-self: center;
-	}
-	
-	.srchico
-	{
-		background-color: #f2f2f2;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		font-size: 18px;
-		color: black;
-		width: 120px;
-		height: 120px;
-		border-radius: 35px 0px 0px 35px;
-		transition: 0.4s;
-	}
-
-	.srcfrm
-	{
-		display: flex;
-		flex-wrap: wrap;
-		border: 1px solid #f2f2f2;
-		border-radius: 0px 35px 35px 0px;
-
-	}
-	
-	.marker
-	{
-		margin-top: 36px;
-		height: 45px;
-		fill: #0065fc;
-	}
-	
-	.bill, .child, .heart, .dog
-	{
-		margin-top: 0.15em;
-		height: 1em;
-	}
-	
-	.info
-	{
-		margin-top: 0.36em;
-		height: 0.8em;
-	}
-	
-	.chart
-	{
-		margin-top: 0.05em;
-		height: 1.1em;
-	}
-	
-	.srchico:hover
-	{
-		background-color: #d9d9d9;
-	}
-	
-	#srchinput
-	{
-		padding-left: 50px;
-		font-family: "raleway";
-		font-size: 50px;
-		font-weight: bold;
-		color: black;
 		width: 100%;
-		height: 120px;
-		border: none;
+		font-size: 2.5em;
 	}
-	
-	.rchbttn
+
+	header nav ul a
 	{
-		display: flex;
-		flex-wrap: wrap;
-		flex-wrap: wrap;
-		background: #0065fc;
-		justify-content: space-around;
-		border-radius: 35px 35px 36px 35px;
-		width: 120px;
-		height: 120px;
-		font-family: "raleway";
-		font-size: 14px;
-		font-weight: 500;
-		transition: 0.4s;
+		width: 50%;
 	}
-	
-	.rchbttn:hover
-	{
-		background-color: black;
-		color: white;
-		font-weight: bold;
-	}
-	
-	.rchbttn p
-	{
-		margin: auto;
-		color: white;
-		font-weight: bold;
-	}
-	
-	.rchbttn p
-	{
-		color: white;
-	}
-	
-	#infolin
-	{
-		margin-top: 25px;
-		margin-bottom: 25px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-	}
-	
-	#infolin p
-	{
-		margin-top: 3px;
-	}
-	
-	#info
-	{
-		margin-right: 13px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		width: 20px;
-		height: 20px;
-		border: 1.3px solid #f2f2f2;
-		border-radius: 20px 20px 20px 20px;
-	}
-	
-	section
-	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	
-	.hebergmts
-	{
-		display: flex;
-		padding-top: 2em;
-		flex-wrap: wrap;
-		justify-content: start;
-		background-color: #f2f2f2;
-		border-radius: 1.2em;
-	}
-	
-	.hebergmts h2
-	{
-		margin-left: 2em;
-	}
-	
-	.hebergmts a
-	{
-		color: black;
-	}
-	
-	.vignettes1
-	{
-		margin: auto;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		width: 52.5em;
-		height: 31.5em;
-	}
-	
-	.vign1
-	{
-		margin: auto;
-		display: flex;
-		flex-wrap: wrap;
-		background-color: white;
-		height: 12em;
-		border: 4px solid white;
-		border-radius: 1.2em;
-		box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
-	}
-	
-	.vign1:hover
-	{
-		transform: translate(0em, -0.38em);
-		color: #0065fc;
-	}
-	.vign1
-	{
-		transition: transform 250ms ease-in-out;
-	}
-	
-	.imgv1
-	{
-		background-size: cover;
-		border-radius: 1em 1em 0em 0em;
-	}
-	
-	.vign1p
-	{
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		padding-left: 0.5em;
-	}
-	
-	.vign1p p
-	{
-		margin-top: -10px;
-		font-size: 0.8em;
-	}
-	
-	.popular
-	{
-		background-color: greenyellow;
-		display: flex;
-		padding-top: 2em;
-		flex-wrap: wrap;
-		align-items: center;
-		background-color: #f2f2f2;
-		border-radius: 1.2em;
-	}
-	
-	.poptitle
-	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	
-	#popico
-	{
-		font-size: 25px;
-		color: black;
-		margin-right: 1.3em;
-		margin-top: 0.35em;
-	}
-	
-	.popular h2
-	{
-		margin-left: 2em;
-	}
-	
-	.popular a
-	{
-		color: black;
-	}
-	
-	.vignettes2
-	{
-		margin: auto;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	
-	.vign2
-	{
-		display: flex;
-		flex-wrap: wrap;
-		background-color: white;
-		border: 4px solid white;
-		border-radius: 1.2em;
-		box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
-	}
-	
-	.vign2:hover
-	{
-		transform: translate(0em, -0.38em);
-		color: #0065fc;
-	}
-	.vign2
-	{
-		transition: transform 250ms ease-in-out;
-	}
-	
-	.imgv2
-	{
-		background-size: cover;
-		margin: auto;
-		border-radius: 1em 0em 0em 1em;
-		height: 100px;
-		width: 170px;
-	}
-	
-	.vign2p
-	{
-		margin-left: 10px;
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-	}
-	
-	.vign2p p
-	{
-		margin-top: -10px;
-		font-size: 0.8em;
-	}
-	
-	.activites
-	{
-		margin-top: 1em;
-		padding-top: 1em;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		height: 35em;
-	}
-	
-	.activites h3
-	{
-		padding-left: 1.2em;
-	}
-	
-	.activites a
-	{
-		color: black;
-	}
-	
-	.vignettes3
-	{
-		margin-top: -3.5em;
-		padding-left: -1em;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		max-width: 480px;
-	}
-	
-	.v3colmn
-	{
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		justify-content: space-between;
-	}
-	
-	.vign3_1
-	{
-		display: flex;
-		flex-wrap: wrap;
-		background-color: white;
-		border-radius: 1.2em;
-		box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
-	}
-	
-	.vign3_1:hover
-	{
-		transform: translate(0em, -0.38em);
-		color: #0065fc;
-	}
-	.vign3_1
-	{
-		transition: transform 250ms ease-in-out;
-	}
-	
-	.imgv3_1
-	{
-		background-size: cover;
-		border-radius: 1.2em 1.2em 0em 0em;
-		width: 245px;
-		height: 280px;
-	}
-	
-	.vign3_2
-	{
-		display: flex;
-		flex-wrap: wrap;
-		background-color: white;
-		border-radius: 1.2em;
-		box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
-	}
-	
-	.vign3_2:hover
-	{
-		transform: translate(0em, -0.38em);
-		color: #0065fc;
-	}
-	.vign3_2
-	{
-		transition: transform 250ms ease-in-out;
-	}
-	
-	.imgv3_2
-	{
-		background-size: cover;
-		border-radius: 1.2em 1.2em 0em 0em;
-		width: 245px;
-		height:126px;
-	}
-	
-	.vign3_3
-	{
-		display: flex;
-		flex-wrap: wrap;
-		background-color: white;
-		border-radius: 1.2em;
-		box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
-	}
-	
-	.vign3_3:hover
-	{
-		transform: translate(0em, -0.38em);
-		color: #0065fc;
-	}
-	.vign3_3
-	{
-		transition: transform 250ms ease-in-out;
-	}
-	
-	.imgv3_3
-	{
-		background-size: cover;
-		border-radius: 1.2em 1.2em 0em 0em;
-		width: 245px;
-		height: 98px;
-	}
-	
-	.vign3_4
-	{
-		display: flex;
-		flex-wrap: wrap;
-		background-color: white;
-		border-radius: 1.2em;
-		box-shadow: 0.2em 0.05em 0.5em rgba(200, 200, 200, 30);
-	}
-	
-	.vign3_4:hover
-	{
-		transform: translate(0em, -0.38em);
-		color: #0065fc;
-	}
-	.vign3_4
-	{
-		transition: transform 250ms ease-in-out;
-	}
-	
-	.imgv3_4
-	{
-		background-size: cover;
-		border-radius: 1.2em 1.2em 0em 0em;
-	}
-	
-	footer
-	{
-		background-color: #f2f2f2;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		padding: 0.7em 0.7em 0.7em 9.5em;
-		font-family: "raleway";
-		color: black;
-		font-size: 1em;
-	}
-	
-	.footnav
-	{
-		max-width: 48em;
-	}
-	
-	footer nav ul
-	{
-		list-style-type: none;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		flex-direction: column;
-		align-content: flex-start;
-	}
-	
-	footer nav li
-	{
-		padding-bottom: 9px;
-	}
-	
-	footer nav a
-	{
-		color: black;
-	}
-	
+
+
+
 }
