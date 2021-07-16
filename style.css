@@ -53,18 +53,18 @@ header nav ul
 	align-content: flex-end;
 	width: 130px;
 	height: 30px;
-	margin-top: -3px;
+	margin-top: -4px;
 	padding-top: 1.5em;
 	border-radius: 0em 0em 0.7em 0.7em;
-	color: #0065fc;
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: normal;
 	transition: 0.4s;
 }
 
 header nav li
 {
 	border-top: 2px solid rgba(255, 255, 255, 0);
+	color: #0065fc;
 }
 
 .pgshbg
@@ -137,6 +137,7 @@ section
 a
 {
 	text-decoration: none;
+	color: #0065fc;
 }
 
 h1
@@ -841,11 +842,11 @@ footer nav a:hover
 	{
 		border-color: #d9d9d9;
 	}
-	.pgshbg
+	header nav ul li:nth-child(0n+2)
 	{
 		order: 3;
 	}
-	.pgsact
+	header nav ul li:nth-child(0n+3)
 	{
 		order: 4;
 	}
