@@ -16,9 +16,10 @@ header
 	margin-bottom: 16px;
 	justify-content: flex-end;
 	font-family: "raleway";
+	width: auto;
 }
 
-.hdcont
+header nav
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -29,6 +30,7 @@ header nav ul
 	display: flex;
 	flex-wrap: wrap;
 	list-style-type: none;
+	width: 100%;
 }
 
 .pgslog
@@ -37,6 +39,9 @@ header nav ul
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
+	justify-self: flex-start;
+	margin-left: -138%;
+    margin-right: 136%;
 }
 
 .pgshbg, .pgsact, .pgsign
@@ -354,6 +359,10 @@ em
 	font-weight: bold;
 }
 
+.magnify
+{
+	display: none;
+}
 .rchbttn p
 {
 	margin: auto;
@@ -851,6 +860,7 @@ footer nav a:hover
 	{
 		justify-content: flex-start;
 		padding-left: 25px;
+		margin: inherit;
 		width: 430px;
 	}
 	#reservia
@@ -863,10 +873,10 @@ footer nav a:hover
 		justify-content: center;
    		align-content: center;
 		margin: 10% 0% 10% 2.3%;
-		width: 95%;
+		width: 91%;
 		height: 105px;
 		border: 3px solid #f2f2f2;
-		border-radius: 35px;
+		border-radius: 37px;
 	}
 	.srchico
 	{
@@ -874,6 +884,8 @@ footer nav a:hover
 		width: 110px;
 		height: 110px;
 		border-radius: 35px 0px 0px 35px;
+		margin-left: -19px;
+    	margin-top: 2px;
 	}
 	.marker
 	{
@@ -902,6 +914,17 @@ footer nav a:hover
 		width: 110px;
 		height: 110px;
 		border-radius: 35px;
+		margin-right: -11px;
+	}
+	.rchbttn p
+	{
+		display: none;
+	}
+	.magnify
+	{
+		display: inherit;
+		height: 35%;
+		margin-top: 30%;
 	}
 
 	.filters
@@ -952,11 +975,14 @@ footer nav a:hover
 	{
 		flex-direction: column;
 	}
+	aside
+	{
+		order: 1;
+	}
 
 	.principal
 	{
 		flex-direction: column;
-		order: 2;
 	}
 
 	.hebergmts
@@ -969,7 +995,8 @@ footer nav a:hover
 	}
 	.hebergmts h2
 	{
-		margin-left: 5%;
+		margin-left: 8%;
+		font-size: 36px;
 	}
 	.vignettes1
 	{
@@ -998,6 +1025,7 @@ footer nav a:hover
 		justify-content: start;
 		width: 100%;
 		height: 116px;
+		margin-left: 20px;
 	}
 	.vign1p h3
 	{
@@ -1017,7 +1045,6 @@ footer nav a:hover
 	aside
 	{
 		flex-direction: column;
-		order: 2;
 	}
 
 	.popular
@@ -1029,7 +1056,7 @@ footer nav a:hover
 	}
 	.popular h2
 	{
-		margin-left: 5%;
+		margin-left: 6%;
 	}
 	.poptitle
 	{
@@ -1079,6 +1106,71 @@ footer nav a:hover
 	{
 		margin-top: -141px;
 		margin-left: 325px;
+	}
+
+	.activites
+	{
+		justify-content: space-between;
+		flex-direction: column;
+		border-radius: inherit;
+		width: 100%;
+		height: inherit;
+	}
+	.activites h2
+	{
+		margin-left: 5%;
+		margin-bottom: 96px;
+	}
+	.vignettes3
+	{
+		width: 100%;
+		height: fit-content;
+	}
+	.v3colmn
+	{
+		justify-content: space-between;
+		flex-direction: column;
+		border-radius: inherit;
+		width: 100%;
+		height: inherit;
+	}
+	.vign3_1, .vign3_2, .vign3_3, .vign3_4
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		width: 774px;
+		height: 424px;
+		border-radius: 50px;
+	}
+	.imgv3_1, .imgv3_2, .imgv3_3, .imgv3_4
+	{
+		border-radius: 40px 40px 0px 0px;
+    	width: inherit;
+    	height: 72%;
+	}
+	.activites h3
+	{
+		margin-top: 30px;
+		font-size: 36px;
+		font-weight: bolder;
+	}
+
+	footer
+	{
+		justify-content: space-between;
+		flex-direction: column;
+		border-radius: inherit;
+		width: 100%;
+		height: inherit;
+		font-size: 35px;
+		padding: inherit;
+		padding-left: 10px;
+	}
+	.footnav
+	{
+		margin-left: 50px;
 	}
 
 }
