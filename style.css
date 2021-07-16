@@ -84,6 +84,7 @@ header nav li
 	background-color: #0065fc;
 	color: white;
 	font-weight: bold;
+	border-color: #0065fc;
 }
 
 .pgsign:hover
@@ -856,6 +857,12 @@ footer nav a:hover
 		padding-left: 25px;
 		width: 430px;
 	}
+	.pgsign:hover
+	{
+	background-color: inherit;
+	color: black;
+	font-weight: bolder;
+	}
 	.pgslog
 	{
 		justify-content: flex-start;
@@ -867,6 +874,7 @@ footer nav a:hover
 	{
 		height: 108px;
 	}
+	
 
 	.srch
 	{
