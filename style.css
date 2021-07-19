@@ -1264,3 +1264,52 @@ footer nav a:hover
 	}
 
 }
+
+/* Media query pour écran 1024 */
+@media all and (max-width: 1280px)
+{
+	.hebergmts
+	{
+		width: 137.5%;
+		flex-direction: column;
+	}
+
+
+	.popular
+	{
+		margin-top: 40px;
+		padding-bottom: 30px;
+		width: 100%;
+		height: fit-content;
+	}
+	.vignettes2
+	{
+		width: 100%;
+		height: fit-content;
+	}
+	.vign2
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		background-color: white;
+		width: 195px;
+		height: 12em;
+		border: 4px solid white;
+		border-radius: 1.2em;
+		box-shadow: 0em 0em 0.9em rgba(200, 200, 200, 30);
+	}
+	.imgv2_1, .imgv2_2, .imgv2_3
+{
+	background-size: cover;
+	border-radius: 1em 1em 0em 0em;
+	width: 100%;
+	height: 58%;
+	background-position-y: -18px;
+}
+	.starsv
+	{
+		margin-top: -12%;
+	}
+	
+}
