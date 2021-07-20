@@ -1323,5 +1323,15 @@ footer nav a:hover
 	{
 		margin-top: -12%;
 	}
+
+	.vign3_1, .vign3_2, .vign3_3, .vign3_4
+	{
+		margin: 12px 12px 5px 5px;
+	}
+	
+	.activites
+	{
+		margin-bottom: 320px;
+	}
 	
 }
