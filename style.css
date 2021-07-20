@@ -40,8 +40,6 @@ header nav ul
 	justify-content: flex-start;
 	align-content: center;
 	justify-self: flex-start;
-	margin-left: -138%;
-    margin-right: 136%;
 }
 
 .pgshbg, .pgsact, .pgsign
@@ -1268,6 +1266,8 @@ footer nav a:hover
 /* Media query pour écran 1024 */
 @media all and (max-width: 1280px)
 {
+
+	
 	.hebergmts
 	{
 		width: 100%;
