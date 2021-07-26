@@ -1051,6 +1051,10 @@ footer nav a:hover
 	}
 	.vign1
 	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
 		width: 774px;
 		height: 400px;
 		border: none;
@@ -1104,13 +1108,12 @@ footer nav a:hover
 
 	aside
 	{
-		width: 100%;
 		flex-direction: column;
-		height: inherit;
 	}
 
 	.popular
 	{
+		flex-direction: column;
 		border-radius: inherit;
 		width: 100%;
 		height: inherit;
@@ -1131,15 +1134,16 @@ footer nav a:hover
 	}
 	.vignettes2
 	{
-		margin-left: auto;
-		margin-right: auto;
 		width: 100%;
 		height: fit-content;
-		justify-content: center;
-		flex-direction: column;
+		padding-bottom: 84px;
 	}
 	.vign2
 	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
 		width: 750px;
 		height: 300px;
 		border: 12px solid white;
@@ -1176,6 +1180,8 @@ footer nav a:hover
 
 	.activites
 	{
+		justify-content: space-between;
+		flex-direction: column;
 		border-radius: inherit;
 		width: 100%;
 		height: inherit;
@@ -1188,16 +1194,12 @@ footer nav a:hover
 	}
 	.vignettes3
 	{
-		margin-left: auto;
-		margin-right: auto;
 		width: 100%;
 		height: fit-content;
-		justify-content: center;
-		flex-direction: column;
 	}
 	.v3colmn
 	{
-		justify-content: center;
+		justify-content: space-between;
 		flex-direction: column;
 		border-radius: inherit;
 		width: 100%;
