@@ -1140,6 +1140,7 @@ footer nav a:hover
 	}
 	.vign2
 	{
+		justify-content: flex-start;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 15px;
@@ -1162,10 +1163,11 @@ footer nav a:hover
 	}
 	.vign2p
 	{
+		justify-content: flex-start;
 		margin: auto;
 		justify-content: start;
 		width: 400px;
-		height: 400px;
+		height: inherit;
 	}
 	.vign2p p
 	{
